@@ -164,3 +164,14 @@ let usuario3 = {
 console.log(usuario3.nome + " " + usuario3.sobrenome);
 usuario3.idade = 30;
 console.log(usuario3.idade);
+
+console.log("------------------");
+
+let carro = {
+  marca: "Toyota",
+  modelo: "Corolla",
+  acelerar:function(){
+    console.log("O carro está acelerando");
+  }
+};
+carro.acelerar();
