@@ -175,3 +175,54 @@ let carro = {
   }
 };
 carro.acelerar();
+
+console.log("------------------");
+
+let numeros = [1, 2, 3, 4, 5];
+let nomes = ["Fernanda", "Nycolas", "Cláudio", "Lais"];
+let misto = [1, "Fernanda", true, {chave:"valor"}];
+
+console.log(numeros[0]);
+console.log(nomes[1]);
+
+for (let i = 0; i < numeros.length; i++){
+  console.log(numeros[i]);
+}
+
+numeros.forEach(function(numero){
+  console.log(numero);
+})
+
+let dobro = numeros.map(function(numero){
+  return numero * 2;
+});
+console.log(dobro);
+
+//Adiciona o número 6
+numeros.push(6);
+console.log(numeros);
+
+//Exibe Tudo
+numeros.pop();
+console.log(numeros);
+
+//Exibe a partir do número 2
+numeros.shift();
+console.log(numeros);
+
+//Exibe o 0 mas não o 1
+numeros.unshift(0);
+console.log(numeros);
+
+//Remove 1 e 3 e mostra só o restante
+let parte = numeros.slice(1, 3);
+console.log(parte);
+
+//Exibe 1
+console.log(numeros.indexOf(2));
+
+//Exibe 1
+console.log(numeros.lastIndexOf(2));
+
+//Exibe True
+console.log(numeros.includes(3));
