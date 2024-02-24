@@ -278,3 +278,21 @@ const{
 
 console.log(MYsobrenome);
 console.log(MYcidade);
+
+console.log("------------------");
+
+//Operadores de Iguldade
+
+console.log("1" == 1); //True
+console.log("1" === 1); //False
+
+let valor = 1;
+console.log(valor == 1); //True
+console.log(valor === 1); 
+//true
+
+let aux = "1";
+console.log(aux == 1); //false
+console.log(aux === 1); //true
+
+console.log("------------------");
