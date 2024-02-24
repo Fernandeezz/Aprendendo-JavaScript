@@ -77,4 +77,57 @@ console.log(texto.endsWith("mundo!"));
 console.log(texto.includes("mundo"));
 console.log("abc".repeat(3));
 
-console.log("------------------")
+console.log("------------------");
+
+let caminho = String.raw`C:\Users\João\Documents`;
+console.log(caminho);
+
+console.log("------------------");
+
+let text = "JavaScript";
+console.log(text.charAt(4));
+
+console.log("------------------");
+
+let frase = "O gato subiu no telhado e depois pulou.";
+console.log(frase.indexOf("gato"));
+console.log(frase.lastIndexOf("pulou"));
+
+console.log("------------------");
+
+let palavra = "abcdefgh";
+console.log(palavra.substring(2, 5));
+
+console.log("------------------");
+
+let frase2 = "Esta é uma string";
+console.log(frase2.slice(5, 7));
+
+console.log("------------------");
+
+let lista = "Maçã,banana, uva,melância";
+let frutas = lista.split(",");
+console.log(frutas);
+
+console.log("------------------");
+
+let isDataValida = true;
+let isGameOver = false;
+
+console.log(false);
+console.log(typeof false);
+console.log(isDataValida);
+console.log(typeof isDataValida);
+console.log(isGameOver);
+console.log(typeof isGameOver);
+
+console.log("------------------");
+
+let resultadoSoma;
+
+function soma(a, b){
+  return a + b;
+}
+
+resultadoSoma = soma(1, 2);
+console.log("Resultado da soma é: " + resultadoSoma);
