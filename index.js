@@ -52,3 +52,20 @@ console.log(message1);
 console.log(message2);
 
 console.log("------------------")
+
+let nome = "João";
+let idade = 30;
+
+let mensagem = "Olá, " + nome + "! Você tem " + idade + " anos.";
+let mensagem2 = `Olá, ${nome}! Você tem ${idade} anos.`
+
+console.log(mensagem);
+console.log(mensagem2);
+
+console.log("------------------")
+
+let multiLineString = 'Está é uma string que abrange múltiplas linhas sem a necessidade de usar o caractere de quebra de linha \n.';
+
+console.log(multiLineString);
+
+console.log("------------------")
