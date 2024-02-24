@@ -227,6 +227,8 @@ console.log(numeros.lastIndexOf(2));
 //Exibe True
 console.log(numeros.includes(3));
 
+console.log("------------------");
+
 // Destructuring
 
 const number = [1, 2, 3];
@@ -246,3 +248,33 @@ const [p = 10, q = 20, r = 30] = [5, ,25];
 console.log(p);
 console.log(q);
 console.log(r);
+
+console.log("------------------");
+
+// Destructuring 2
+
+const pessoa = {
+  MYname: 'Fernanda',
+  year: 20,
+};
+
+const { MYname, year } = pessoa;
+
+console.log(MYname);
+console.log(year);
+
+const {
+  MYname: primeiroNome,
+  year: anos
+} = pessoa;
+
+console.log(primeiroNome);
+console.log(anos);
+
+const{
+  MYsobrenome = "Fernandes",
+  MYcidade = "São Paulo",
+} = pessoa;
+
+console.log(MYsobrenome);
+console.log(MYcidade);
