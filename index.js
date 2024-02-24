@@ -69,3 +69,12 @@ let multiLineString = 'Está é uma string que abrange múltiplas linhas sem a n
 console.log(multiLineString);
 
 console.log("------------------")
+
+let texto = "Olá, mundo!";
+
+console.log(texto.startsWith("Olá"));
+console.log(texto.endsWith("mundo!"));
+console.log(texto.includes("mundo"));
+console.log("abc".repeat(3));
+
+console.log("------------------")
