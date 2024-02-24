@@ -131,3 +131,36 @@ function soma(a, b){
 
 resultadoSoma = soma(1, 2);
 console.log("Resultado da soma é: " + resultadoSoma);
+
+console.log("------------------");
+
+let multiplicar = function (a, b){
+  return a * b;
+}
+console.log("Resultado da multiplicação é: " + multiplicar(4, 3));
+
+let usuario1 = {}
+console.log(usuario1);
+console.log(typeof usuario1);
+
+let usuario2 = {
+  nome: "Fernanda",
+  sobrenome: "Fernandes",
+  idade: 20,
+  email: "nandafernandes259@gmail.com"
+}
+
+console.log(usuario2.nome + " " + usuario2.sobrenome);
+console.log(usuario2.idade);
+console.log(usuario2.email);
+
+let usuario3 = {
+  nome: "Maria",
+  sobrenome: "Silva",
+  idade: 30,
+  email: "maria.silva@gmail.com"
+}
+
+console.log(usuario3.nome + " " + usuario3.sobrenome);
+usuario3.idade = 30;
+console.log(usuario3.idade);
