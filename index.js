@@ -226,3 +226,23 @@ console.log(numeros.lastIndexOf(2));
 
 //Exibe True
 console.log(numeros.includes(3));
+
+// Destructuring
+
+const number = [1, 2, 3];
+const [l, k, j] = numeros;
+
+console.log(l);
+console.log(k);
+console.log(j);
+
+const [primeiro, , terceiro] = number;
+
+console.log(primeiro);
+console.log(terceiro);
+
+const [p = 10, q = 20, r = 30] = [5, ,25];
+
+console.log(p);
+console.log(q);
+console.log(r);
