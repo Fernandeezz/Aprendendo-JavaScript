@@ -279,6 +279,12 @@ const{
 console.log(MYsobrenome);
 console.log(MYcidade);
 
+function mostrarInfo({ MYname, year }){
+  console.log(`${MYname} tem ${year} anos.`);
+}
+
+mostrarInfo(pessoa);
+
 console.log("------------------");
 
 //Operadores de Iguldade
